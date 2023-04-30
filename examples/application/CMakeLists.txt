@@ -15,7 +15,7 @@ set(_Application_Sources
     source/renderer_ogl3.cpp
 )
 
-add_library(application STATIC)
+add_library(application STATIC ../pyrofractal/node.cpp ../pyrofractal/node.h)
 
 target_include_directories(application PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
