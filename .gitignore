@@ -9,3 +9,4 @@ bin
 *.user
 *.ini
 *.json
+**/cmake-build-debug/
